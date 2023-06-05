@@ -1,0 +1,11 @@
+.clock {
+    padding: 50px;
+
+    .clock__content {
+        display: flex;
+        justify-content: center;
+        .clock__info {
+            @include _font(500, 50px, 65px, $whiteColor)
+        }
+    }
+}

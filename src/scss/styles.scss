@@ -1,0 +1,17 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './common/common.scss';
+@import './components/components.scss';
+@import './ui/ui.scss';
+@import './pages/pages.scss';
+
+body {
+    background-image: url('https://kudann.ru/uploads/af315a318da415860ee72551a830a06f.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+
+    #root {
+        height: 100%;
+    }
+}

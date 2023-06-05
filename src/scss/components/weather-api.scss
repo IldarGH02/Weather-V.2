@@ -1,0 +1,8 @@
+.weatherApi__content {
+    display: flex;
+    flex-direction: column;
+
+    .weatherApi__title {
+        @include _font(500, 25px, 30px, $whiteColor)
+    }
+}

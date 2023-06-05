@@ -1,0 +1,36 @@
+.header {
+    background: rgba(0,0,0, 0.5);
+
+    .header__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+
+        .header__title {
+            margin: 0;
+            @include _font(700, 25px, 30px, $whiteColor)
+        }
+
+        .header__nav {
+            .header__link {                
+                @include _font(400, 20px, 25px, $whiteColor);
+                text-decoration: none;
+                transition: color .3s ease-in-out;
+
+                &:not(:last-child) {
+                    margin-right: 20px;
+                }
+
+                &:hover {
+                    color: $textHover;
+                }
+            }
+
+            .active {
+                color: $textHover;
+            }
+        }
+    }
+}

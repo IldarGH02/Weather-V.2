@@ -1,0 +1,8 @@
+.openWeather__content {
+    display: flex;
+    flex-direction: column;
+
+    .openWeather__title {
+        @include _font(500, 25px, 30px, $whiteColor)
+    }
+}
